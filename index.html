@@ -8,7 +8,7 @@
         font-size: 18pt;
         color: #ff5757;
         padding: 5px;
-        border: 1px solid #ffffff;
+        border: 0px solid #ffffff;
         justify-content: left;
         line-height: 1.5;
         height:85%;
@@ -22,7 +22,7 @@
       }
 
       #date{
-          font-size:12pt;
+          font-size:18pt;
           font-weight: bold;
       }
 
@@ -58,11 +58,11 @@
     var greet;
 
     if (hrs < 12)
-        greet = 'good morning, Aster.  ';
+        greet = 'good morning :D  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'good afternoon, Aster. ';
+        greet = 'good afternoon :D ';
     else if (hrs >= 17 && hrs <= 24)
-        greet = 'good evening, Aster.  ';
+        greet = 'good evening :D  ';
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
